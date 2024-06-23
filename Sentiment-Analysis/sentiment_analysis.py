@@ -8,7 +8,7 @@ nltk.download('punkt')
 plt.style.use('ggplot')
 
 # reading of the data
-df = pd.read_csv('Reviews (1).csv')
+df = pd.read_csv('Reviews.csv')
 print(df.shape)
 df = df.head(500)
 print(df.shape)
